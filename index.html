@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consulta de cep</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="src/other/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <main class="flex items-center justify-center h-screen bg-gray-100">
+        
+
+        <form>
+            <div class="bg-white w-96 p-6 rounded shadow-sm">
+                
+                <h1 class="text-center mb-10 text-2xl text-violet-800 font-semibold">Digite um CEP</h1>
+
+                <div class="flex items-center justify-center mb-4">
+                    <img src="src/other/logo.svg" alt="Logo" class="h-32 animate-pulse">
+                </div>
+
+            <label for="cep" class="text-violet-700 font-medium">CEP</label>
+            <input type="text" class="w-full py-2 bg-gray-200 text-gray-500 px-1 outline-none mb-4 rounded" maxlength="8" id="cep">
+
+            <label for="logradouro" class="text-violet-700 font-medium">Logradouro</label>
+            <input type="text" class="w-full py-2 bg-gray-200 text-gray-500 px-1 outline-none mb-4 rounded" id="logradouro">
+
+            <label for="bairro" class="text-violet-700 font-medium">Bairro</label>
+            <input type="text" class="w-full py-2 bg-gray-200 text-gray-500 px-1 outline-none mb-4 rounded" id="bairro">
+
+            <label for="localidade" class="text-violet-700 font-medium">Localidade</label>
+            <input type="text" class="w-full py-2 bg-gray-200 text-gray-500 px-1 outline-none mb-4 rounded" id="localidade">
+
+            <label for="uf" class="text-violet-700 font-medium">UF</label>
+            <input type="text" class="w-full py-2 bg-gray-200 text-gray-500 px-1 outline-none mb-4 rounded" id="uf">
+
+            </div>
+        </form>
+
+    </main>
+    
+    <script src="src/js/main.js"></script>
+</body>
+
+</html>
